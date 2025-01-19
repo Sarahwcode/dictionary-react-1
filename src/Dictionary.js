@@ -1,13 +1,14 @@
 import React, {useState} from "react";
 import axios from "axios";
-
+import Results from "./Results"
 
 export default function Dictionary (){
-    let [words, setWords] = useState("")
+    let [words, setWords] = useState("");
+    let [ define, setDefine] = useState(null);
 
 
     function handleResponse (response) {
-console.log(response.data);
+setDefine(response.data);
     }
     function search(event){
     event.preventDefault();
@@ -31,6 +32,8 @@ console.log(response.data);
                 <input type="search" autoFocus onChange={wordChange}></input>
                 <input type="submit"></input>
             </form>
+            
+            <Results definition = {define}/>
         </div>
     );
 }
