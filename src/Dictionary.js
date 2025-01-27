@@ -47,6 +47,7 @@ if (load) {
                 <input className="btn btn-dark mt-3" type="submit" title="Search" value="Search" ></input>
                 </div>
             </form>
+            <div className="example">e.g., faith, courage, bravery...</div>
             </section>
             <div>
             <Results definition = {define}/>
