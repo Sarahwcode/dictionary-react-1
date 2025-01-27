@@ -10,7 +10,7 @@ function App() {
         <h1 className='text-center mt-4'>Dictionary</h1>
         </header>
   <main>
-<Dictionary/>
+<Dictionary keyWord = "Hope"/>
   </main>
   <footer className='text-center'>Coded by Sarah Ward, available on Github and hosted on netlify</footer>
     </div>
