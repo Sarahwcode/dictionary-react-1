@@ -44,7 +44,7 @@ if (load) {
             <form onSubmit={handleSubmit}>
                 <input type="search" autoFocus onChange={wordChange} className="search" placeholder="Enter your word...."></input>
                 <div>
-                <input className="btn btn-dark mt-3" type="submit"></input>
+                <input className="btn btn-dark mt-3" type="submit" title="Search" value="Search" ></input>
                 </div>
             </form>
             </section>

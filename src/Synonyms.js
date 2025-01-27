@@ -1,23 +1,25 @@
 import React from "react";
+import "./Synonyms.css";
 
 export default function Synonyms (props) {
 
         if (props.Synonyms){
            
             return ( 
-                <section> 
-                <ul>
+              
+                <ul className="ml-0  synonym" >
         {props.Synonyms.map ((Synonym, index) => (
            
 <li key={index}>
-    {Synonym}
+    <div><strong>Synonyms: </strong></div>
+{Synonym}
 </li>
               
         )
     )
         }
        </ul>
-       </section> 
+       
     );
 } else {
     return null;

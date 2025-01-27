@@ -11,7 +11,7 @@ export default function Results (props)
         <section>
 <h1>{props.definition.word}</h1>
 
-<h2>Phonetic:{props.definition.phonetic}</h2>
+<h2>{props.definition.phonetic}</h2>
 </section>
 
 {props.definition.meanings.map(function (meaning, index){
