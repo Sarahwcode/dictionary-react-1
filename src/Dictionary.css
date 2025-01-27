@@ -6,7 +6,7 @@ width: 35%;
 max-width: 100%;
 }
 .dictionary section {
-    background-color: rgb(231, 185, 216);
+    background: radial-gradient(circle at 10% 20%, rgb(226, 37, 37) 0%, rgb(211, 49, 49) 82.8%);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
