@@ -1,4 +1,5 @@
 import React from "react";
+import "./Images.css";
 
 export default function Images (props) {
   
@@ -8,7 +9,7 @@ export default function Images (props) {
         <section className="row">
             {props.photos.map ((photos, index) => (
              
-                <div key={index} className="col-4">
+                <div key={index} className="col-4 images">
                     <a href={photos.src.original} target="_blank" rel="noreferrer">
                 <img src={photos.src.landscape} className="img-fluid" alt=""></img>
                 </a>
