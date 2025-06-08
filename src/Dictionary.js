@@ -32,16 +32,16 @@ function handleSubmit(event)
 {
     event.preventDefault();
     
-    search()
+    search();
 }
 function loaded () {
-    setLoaded(true)
-    search()
+    setLoaded(true);
+    search();
 }
 
     function wordChange(event)
     {
-        setWords(event.target.value)
+        setWords(event.target.value);
     }
 
 
